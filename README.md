@@ -9,7 +9,7 @@ A collection of scripts which parse and aggregate the data from various differen
 
 ### Google Sheet Integration steps:
 
-- Go to https://docs.google.com/spreadsheets/d/1EXGhg0XL_tdtYT6HBt-MImQPYWP0Sb69Angku1a95MI/edit?usp=sharing and make a copy of the Google Sheet.
+- Go to [this google sheet](https://docs.google.com/spreadsheets/d/1EXGhg0XL_tdtYT6HBt-MImQPYWP0Sb69Angku1a95MI/edit?usp=sharing) and make a copy.
 - In the `helper_google_sheets.py` file, replace the values of `_c_and_t_id` and `_all_data_id` with the GIDs of the `C&T` and `All Data` tab in your copied Google sheet.
 - Go to Google Developer Console: https://console.developers.google.com
 - New Project -> Activate Drive and Sheets API
@@ -58,5 +58,3 @@ A collection of scripts which parse and aggregate the data from various differen
 - Update transaction date / Select Transaction Period
 - View Detailed Statement
 - Download details as: XLS file.
-
-https://docs.google.com/spreadsheets/d/1EXGhg0XL_tdtYT6HBt-MImQPYWP0Sb69Angku1a95MI/edit?usp=sharing
